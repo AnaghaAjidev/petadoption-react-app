@@ -15,12 +15,12 @@ function App() {
   return (
     <>
       <BrowserRouter>
-      <Routes>
-        <Route path='/' element={<AddPet/>}/>
-        <Route path='/search' element={<SearchPet/>}/>
-        <Route path='/delete' element={<DeletePet/>}/>
-        <Route path='/view' element={<ViewAllPet/>}/>
-      </Routes>
+        <Routes>
+          <Route path='/' element={<AddPet />} />
+          <Route path='/search' element={<SearchPet />} />
+          <Route path='/delete' element={<DeletePet />} />
+          <Route path='/view' element={<ViewAllPet />} />
+        </Routes>
       </BrowserRouter>
     </>
   )
