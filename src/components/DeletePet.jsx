@@ -1,7 +1,10 @@
 import React from 'react'
+import NavBar from './NavBar'
 
 const DeletePet = () => {
   return (
+    <>
+    <NavBar/>
     <div className="container mt-5">
       <div className="card shadow p-4 col-md-6 mx-auto">
 
@@ -20,6 +23,7 @@ const DeletePet = () => {
 
       </div>
     </div>
+    </>
   )
 }
 

@@ -1,7 +1,10 @@
 import React from 'react'
+import NavBar from './NavBar'
 
 const AddPet = () => {
   return (
+    <>
+    <NavBar />
     <div className="container mt-5">
       <div className="card shadow p-4">
         <h2 className="text-center mb-4">Add Pet</h2>
@@ -75,6 +78,7 @@ const AddPet = () => {
         </div>
       </div>
     </div>
+    </>
   )
 }
 
