@@ -1,0 +1,26 @@
+import React from 'react'
+
+const DeletePet = () => {
+  return (
+    <div className="container mt-5">
+      <div className="card shadow p-4 col-md-6 mx-auto">
+
+        <h3 className="text-center mb-3">Delete Pet</h3>
+
+        <label className="form-label">Pet ID</label>
+        <input
+          type="text"
+          className="form-control mb-3"
+          placeholder="Enter Pet ID"
+        />
+
+        <button className="btn btn-danger">
+          Delete
+        </button>
+
+      </div>
+    </div>
+  )
+}
+
+export default DeletePet
